@@ -65,9 +65,9 @@ def main():
 
         st.subheader("Results")
         st.write(f"Decision: {decision}")
-        st.write(f"Net Cost of Buying: ${net_cost_buying:,.2f}")
-        st.write(f"Net Cost of Renting: ${net_cost_renting:,.2f}")
-        st.write(f"Monthly Mortgage Payment: ${monthly_mortgage_payment:,.2f}")
+        st.write(f"Net Cost of Buying: £{net_cost_buying:,.2f}")
+        st.write(f"Net Cost of Renting: £{net_cost_renting:,.2f}")
+        st.write(f"Monthly Mortgage Payment: £{monthly_mortgage_payment:,.2f}")
 
 if __name__ == "__main__":
     main()
